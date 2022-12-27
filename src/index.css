@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'THICCCBOI';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+
+}
+
+code {
+  font-family: 'THICCCBOI',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 100;
+  src: url('./fonts/TTF/THICCCBOI-ThicccAF.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 200;
+  src: url('./fonts/TTF/THICCCBOI-Thin.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 300;
+  src: url('./fonts/TTF/THICCCBOI-Light.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 400;
+  src: url('./fonts/TTF/THICCCBOI-Regular.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 500;
+  src: url('./fonts/TTF/THICCCBOI-Medium.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 600;
+  src: url('./fonts/TTF/THICCCBOI-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 700;
+  src: url('./fonts/TTF/THICCCBOI-Bold.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 800;
+  src: url('./fonts/TTF/THICCCBOI-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: THICCCBOI;
+  font-weight: 900;
+  src: url('./fonts/TTF/THICCCBOI-Black.ttf');
+}

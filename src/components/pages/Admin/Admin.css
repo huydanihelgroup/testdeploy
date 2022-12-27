@@ -1,0 +1,6 @@
+.custom-input-container > div {
+  width: 6rem;
+}
+.custom-input-container-auto-complete > div {
+  width: 12rem;
+}

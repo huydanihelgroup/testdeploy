@@ -1,0 +1,8 @@
+    // "start-storybook": "start-storybook -p 6006 -s public",
+    // "build-storybook": "build-storybook -s public",
+    // "fix:lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    // "fix:prettier": "prettier --write .",
+    // "fix": "rm -rf storybook-static && npm run fix:lint && npm run fix:prettier",
+    // "test:prettier": "prettier --check .",
+    // "test:types": "tsc --noEmit",
+    // "test-strorybook": "npm run test:types && npm run test:prettier && npm run build && rm -rf storybook-static",

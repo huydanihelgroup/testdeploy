@@ -1,0 +1,18 @@
+* {
+  font-family: THICCCBOI;
+  letter-spacing: 0.15000000596046448px;
+}
+.fixed_img {
+  width: 200px;
+  height: 200px;
+}
+#custom-tooltip {
+    display: none;
+    margin-left: 4px;
+    padding: 2px 8px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
