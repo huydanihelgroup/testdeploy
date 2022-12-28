@@ -23,3 +23,13 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npm run build 
+
+      - name: Codecov
+        uses: codecov/codecov-action@v2.1.0
+
+      - name: Netlify Deploy
+        # uses: jsmrcaga/action-netlify-deploy@v1.7.1
+
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: netlify deploy --prod
