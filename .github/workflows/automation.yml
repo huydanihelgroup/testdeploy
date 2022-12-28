@@ -28,7 +28,7 @@ jobs:
         uses: codecov/codecov-action@v3
 
       - name: Netlify Deploy
-        uses: jsmrcaga/action-netlify-deploy@v1.7.1
+        #uses: jsmrcaga/action-netlify-deploy@v1.7.1
 
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
